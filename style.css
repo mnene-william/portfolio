@@ -19,32 +19,31 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);)
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 
     
 }
-.navigation{
-
+.headernav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
     position: relative;
 }
-nav ul{
+.headernav ul{
     list-style: none;
     text-align: right;
     width: 100%;
     padding-right: 60px;
 }
-nav ul li{
+.headernav ul li{
     display: inline-flex;
     margin: 10px;
     padding: 30px;
 
 }
-nav ul li a{
+.headernav ul li a{
     text-decoration: none;
     color: white;
     font-style: bold;
@@ -56,13 +55,13 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
 }
-a:hover{
+.headernav ul li a:hover{
     color: black;
 }
 .section h1{
     color: white;
     text-align: center;
-    font-size: 100px;
+    font-size: 70px;
     text-decoration: none;
     margin-top: 100px;
     text-align: left;
@@ -70,6 +69,11 @@ a:hover{
 
     z-index: 10;
     position: relative;
+
+}
+span{
+    color: gold;
+    font-size: 100px;
 
 }
 .aboutme{
@@ -89,7 +93,7 @@ h2{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    text-weight: bold;
+    font-weight: bold;
     color: white;
     font-size: 60px;
     font-style: oblique;
@@ -116,6 +120,8 @@ p2{
     font-family: poppins;
     background-color: grey;
     width: 100%;
+    display: flex;
+    gap: 10px;
 
 }
 
@@ -131,36 +137,30 @@ p3{
 h3{ text-align: center;
     grid-area: h3;
     padding: 15px;
-    font-size: 35px
 }
 .School{
     width: 70px;
     height: 70px;
     padding-left: 70px;
 }
-.Stanford{
-    width: 70px;
-    height: 70px;
-    padding-left: 70px;
-    background-color: grey;
-    color: white;
-    text-align: center;
-}
-.Zindua{
-    background-color: grey;
-    color: white;
-    font-family: Poppins;
-    font-size: 20px;
-    text-align: center;
+
+.StanU{
+    padding: 2px 16px;
 
 }
-.Lenana{
-    background-color: grey;
-    color: white;
-    font-family: Poppins;
-    font-size: 20px;
-    text-align: center;
-    
+stanford{
+    width: 100%;
+}
+
+.ZinduaS{
+    padding: 2px 16px;
+}
+zinduas{
+    width: 100%;
+}
+
+.Lenanacon{
+    padding-left: 2px 16px; 
 
 }
 #Portfolio{
@@ -187,13 +187,73 @@ h4{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.Skills{
-    text-family: poppins;
-    text-align: center;
-    font-size: 20px;
+.Skills{ 
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 3fr 3fr;
+    grid-template-areas: ".skills .skills" ".Hobbies .Hobbies";
 
 }
 
+.skills{
+    text-align: center;
+    list-style: none;
+    font-family: Poppins;
+}
+.Hobbies{
+    text-align: center;
+    list-style: none;
+    font-family: Poppins;
+}
+ul li{
+    list-style: none ;
+}   
+.mycontacts{
+    text-align: center;
+    font-family: Poppins;
+    text-decoration: none;
+}
+.mycontacts ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+}
+.mycontacts ul li a:hover{
+    color: black;
+    
+}
+.footernav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.footernav ul{
+    list-style: none;
+}
+.footernav ul li{
+    display: inline-flex;
+    margin: 10px;
+    padding: 30px;
+
+
+}
+.footernav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footernav ul li a:hover{
+  background-color: white;
+  color: black;
+  padding: 2px;
+}
+.card{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
 
 
 
