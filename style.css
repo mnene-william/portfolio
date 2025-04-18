@@ -72,8 +72,8 @@
 
 }
 span{
-    color: gold;
-    font-size: 100px;
+    color: #345569;
+    font-size: 150px;
 
 }
 .aboutme{
@@ -254,6 +254,7 @@ ul li{
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
+
 
 
 
