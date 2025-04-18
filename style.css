@@ -192,6 +192,7 @@ h4{
     grid-template-columns: 3fr 3fr;
     grid-template-rows: 3fr 3fr;
     grid-template-areas: ".skills .skills" ".Hobbies .Hobbies";
+    padding-top: 60px;
 
 }
 
@@ -254,7 +255,24 @@ ul li{
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
-
+@media only screen and (max-width: 600px) {
+    .navigation{
+        display: block;
+    }
+    #About{
+        display: block;
+    }
+    #Portfolio{
+        display: block;
+    }
+    #Contact{
+        display: block;
+    }
+    .Footer{
+        display:block
+    }
+        
+}
 
 
 
